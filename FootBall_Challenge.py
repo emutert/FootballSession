@@ -22,8 +22,8 @@ class FootballChallenge:
         outputs:  the team codes
 
     """
-
-    df = pd.DataFrame()
+    def __init__(self):
+        df = pd.DataFrame()
 
     @classmethod
     def _prepare_data(cls):
